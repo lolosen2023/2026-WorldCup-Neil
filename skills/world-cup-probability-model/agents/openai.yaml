@@ -1,0 +1,7 @@
+interface:
+  display_name: "World Cup Probability Model"
+  short_description: "Analyze World Cup fixtures with odds, score pools, EV, and risk notes"
+  default_prompt: "Use $world-cup-probability-model to analyze the next World Cup matchday."
+
+policy:
+  allow_implicit_invocation: true

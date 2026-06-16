@@ -1,0 +1,10 @@
+{
+  "name": "2026-worldcup-neil",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node ./scripts/validate_skill_package.mjs",
+    "smoke": "node ./skills/world-cup-probability-model/scripts/probability-tool.mjs --home Spain --away CapeVerde --odds -550,650,1400 --ou -115,-105"
+  }
+}

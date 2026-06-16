@@ -1,0 +1,39 @@
+{
+  "name": "2026-worldcup-neil",
+  "version": "0.1.0",
+  "description": "World Cup probability analysis skill for daily forecasts, odds comparison, correct-score pools, EV screening, and responsible risk reporting.",
+  "author": {
+    "name": "Neil Wang"
+  },
+  "homepage": "https://github.com/lolosen2023/2026-WorldCup-Neil",
+  "repository": "https://github.com/lolosen2023/2026-WorldCup-Neil",
+  "license": "MIT",
+  "keywords": [
+    "world-cup",
+    "fifa",
+    "football",
+    "probability",
+    "odds",
+    "poisson",
+    "correct-score",
+    "forecast"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "2026 WorldCup Neil",
+    "shortDescription": "Analyze World Cup fixtures with odds, score pools, EV, and risk notes",
+    "longDescription": "Use this plugin to produce repeatable FIFA World Cup probability analysis, daily Beijing-time or U.S.-time forecast updates, market-implied probability comparisons, Poisson correct-score pools, expected-value screening, and responsible risk reporting.",
+    "developerName": "Neil Wang",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/lolosen2023/2026-WorldCup-Neil",
+    "defaultPrompt": [
+      "Use $world-cup-probability-model to analyze the next World Cup matchday."
+    ],
+    "brandColor": "#0B3D2E",
+    "screenshots": []
+  }
+}
